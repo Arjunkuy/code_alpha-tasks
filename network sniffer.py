@@ -1,7 +1,7 @@
 
 Building a network sniffer in Python on Kali Linux involves several steps. The steps below outline the process of setting up the environment, writing the Python script, and running the network sniffer to capture and analyze network traffic.
 
-from scapy.all import sniff
+from scapy.all import snifff
 from scapy.layers.inet import IP, TCP, UDP
 import logging
 
